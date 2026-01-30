@@ -10,7 +10,7 @@ COPY . .
 RUN pipenv run mkdocs build
 
 # --- Nginx Stage ---
-FROM nginx:alpine
+FROM nginx:1.29.4-alpine3.23
 COPY --from=builder /app/site/ /usr/share/nginx/html/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 3000
