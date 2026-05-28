@@ -5,3 +5,7 @@ mkdocs-multirepo-plugin==0.7.0
 mkdocs-redirects==1.2.1
 mkdocs-mermaid2-plugin==1.1.1
 pyyaml-env-tag==1.1
+idna>=3.15 # not directly required, pinned by Snyk to avoid a vulnerability
+pymdown-extensions>=10.21.3 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.33.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.7.0 # not directly required, pinned by Snyk to avoid a vulnerability
