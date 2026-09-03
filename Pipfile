@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mkdocs-material = "==9.4.8"
+mkdocs-material = "==9.7.7"
 markdown-include = "==0.8.1"
 mkdocs-open-in-new-tab = "==1.0.3"
 mkdocs-multirepo-plugin = "==0.7.0"
